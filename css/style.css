@@ -880,7 +880,7 @@ h2 {
 }
 
 /***** Media Quries *****/
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 	.wrap{
 		width:95%;
 	}	
@@ -904,7 +904,22 @@ h2 {
 	}
 }
 
+.image-slider {
+	margin-left: 0%;
+}
+
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+
+@media only screen and (min-width: 1800px){
+	.image-slider {
+		margin-left: 5.82% !important;
+	}
+}
+
+.get-me-left {
+	text-align: left !important;
+}
+
 
 @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.wrap{
