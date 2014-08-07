@@ -23,12 +23,17 @@ img{max-width:100%;}
 body{
 	background: url(../images/box-bg.png);
 }
+
+body {
+	margin: 0px auto !important;
+	width: 95%;
+}
 /*end reset*/
 /*=============================
  * start-wrap
  ============================*/
 .wrap{
-	width:80%;
+	width:100% !important;
 	margin:0 auto;
 }
 /*=============================
@@ -39,6 +44,10 @@ body{
 }
 .header-top{
 	padding: 41px 0 30px 0;
+	background-image: url(../images/header-background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
 }
 .logo{
 	float:left;
@@ -750,6 +759,26 @@ body{
 	padding:1.5%; 
 }
 
+#slider1 {
+	height: 550px;
+}
+
+#slider1 li img {
+	height: 760px;
+}
+
+.special-ul {
+	margin-left: 10px !important;
+	margin-left: 10px !important;
+	border-bottom: 1px solid rgba(85, 85, 85, 0.1);
+}
+
+.special-p {
+	color: black !important;
+	font-size: 18px !important;
+	line-height: 15px !important;
+}
+
 h2 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 20px;
@@ -758,6 +787,13 @@ h2 {
 	margin-top: 10px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
+}
+.special-header {
+	font-family: sans-serif !important;
+	text-transform: none !important;
+	margin-bottom: 10px !important;
+	color: #71D6EA !important;
+	border-bottom: 1px solid rgba(85, 85, 85, 0.1);
 }
 .span_2_of_3  h3,
 .span_1_of_3  h3 {
