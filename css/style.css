@@ -179,6 +179,16 @@ body{
 	margin-top: 20px;
 }
 
+#lightbox-container-image-box {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.specialz {
+	width: 46% !important;
+	height: 500px;
+}
+
 .logo {
 	max-height: 60px;
 }
@@ -738,6 +748,16 @@ body{
 .span_1_of_3 {
 	width: 29.2%;
 	padding:1.5%; 
+}
+
+h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 .span_2_of_3  h3,
 .span_1_of_3  h3 {
