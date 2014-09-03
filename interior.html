@@ -5,7 +5,7 @@
     <title>Villa Sarah</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
   </head>
   <body>
       <div class="header">
@@ -129,11 +129,20 @@
               <a href="images/interior/parter/3.jpg"><img src="images/interior/parter/3.jpg" alt=""></a>
             </div>
           </div>
+          <div class="gallery-grids">
+            <div class="gallery-grid">
+              <a href="images/interior/parter/4.jpg"><img src="images/interior/parter/4.jpg" alt=""></a>
+            </div>
+            <div class="gallery-grid grid2">
+              <a href="images/interior/parter/5.jpg"><img src="images/interior/parter/5.jpg" alt=""></a>
+            </div>
+          </div>
           <script type="text/javascript" src="js/jquery.lightbox.js"></script>
           <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
           <script type="text/javascript">
             $(function() {
-                $('.gallery-grid a').lightBox();
+                $('.gallery-grid a').fancybox({
+                });
             });
             </script>
             <div class="clear"> </div>
